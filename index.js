@@ -27,7 +27,7 @@ const connectionParams = {
   // useUnifiedTopology: true
 };
 
-const db = "mongodb+srv://satviksharma1508:YmbyCOhXxY1ZgU1y@cluster0.wdxx5u2.mongodb.net/?retryWrites=true&w=majority";
+const db = 
 mongoose.connect(db, connectionParams)
   .then(() => {
     console.log("Connected to database ");
